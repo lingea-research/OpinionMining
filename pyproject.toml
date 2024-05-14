@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "opinion-mining"
+version = "0.1.0"
+description = ""
+authors = ["Efraim Berkovič <efraim@lingea.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "*"
+numpy = "*"
+transformers = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
